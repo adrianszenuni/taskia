@@ -1,0 +1,47 @@
+.statistics{
+    margin-top:250px;
+    padding-bottom:300px;
+}
+.statistics_heading{
+    font-family: 'Poppins', sans-serif;
+    font-size:50px;
+    font-weight:700;
+}
+
+.statistic_number{
+    font-family: 'Poppins', sans-serif;
+    font-size:150px;
+    font-weight:800;
+    color:#525FFB;
+}
+
+@media only screen and (max-width: 600px) {
+    .statistics{
+        margin-top:10px;
+    }
+    .statistics_heading{
+        font-size:30px;
+        margin-bottom:20px;
+        text-align:center;
+    }
+    .statistic_number{
+        font-size:70px;
+        margin-top:40px;
+    }
+    .statistics_first_member{
+        position:relative;
+        top:220px;
+    }
+    .statistics_first_member > img{
+        max-height:110px;
+        max-width:110px;
+    }
+    .statistics_second_member{
+        position:relative;
+        left:200px;
+    }
+    .hide_on_mobile{
+        display:none !important;
+        width:0;
+    }
+}

@@ -1,0 +1,49 @@
+.task_management{
+    margin-top:300px;
+}
+
+.task_management_heading{
+    font-family: 'Poppins', sans-serif;
+    font-size:50px;
+    font-weight:700;
+}
+
+.task_management_description{
+    font-family: 'Mulish', sans-serif;
+    font-size:18px;
+    font-weight:700;
+    color:#B1AAAA;
+}
+
+.task_management_button{
+    width:279px;
+    height:77px;
+    border:none;
+    border-radius:50px;
+    background-color:#525FFB;
+    font-size:23px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    color:white;
+    margin-top:100px;
+}
+
+.task_management_button:focus{
+    outline:none;
+}
+
+@media only screen and (max-width: 600px) {
+    .task_management{
+        margin-top:100px;
+    }
+    .task_management_heading{
+        margin-top:20px;
+        font-size:30px;
+    }
+    .task_management_button{
+        margin-top:50px;
+        margin-left:20px;
+        width:260px;
+        height:60px;
+    }
+}   

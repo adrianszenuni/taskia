@@ -1,0 +1,57 @@
+
+.management_tool_heading{
+    font-size:70px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:800;
+}
+
+.management_tool_description{
+    font-size:20px;
+    font-weight:700;
+    color:#B1AAAA;
+}
+
+
+.management_tool_input{
+    width:395px;
+    height:75px;
+    border-radius:50px;
+    border:2px solid #EBEBEB;
+    color: #1E1C24;
+    font-size:20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:200;
+}
+
+.management_tool_button{
+    width:230px;
+    height:77px;
+    background-color:#525FFB;
+    color:white;
+    border:none;
+    border-radius:50px;
+    font-size:23px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+}
+
+.management_tool_button:focus{
+    outline:none;
+}
+
+@media only screen and (max-width: 600px) {
+    .management_tool {
+      margin-top: 20px !important;
+    }
+    .management_tool_heading{
+        font-size:40px;
+    }
+    .management_tool_input{
+        width:340px;
+        height:60px;
+    }
+    .management_tool_button{
+        height:60px;
+        margin: 20px 0 20px 60px;
+    }
+  }

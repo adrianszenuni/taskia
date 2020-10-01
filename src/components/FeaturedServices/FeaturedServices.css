@@ -1,0 +1,33 @@
+.featured_services{
+    margin-top:220px;
+}
+
+.featured_services_boxes_box2{
+    margin-top:90px;
+}
+
+.featured_services_boxes_box3{
+    margin-top:30px;
+}
+
+.featured_services_heading{
+    font-family: 'Poppins', sans-serif;
+    font-size:50px;
+    font-weight:700;
+}
+.featured_services_boxes{
+    margin-top:80px;
+}
+
+@media only screen and (max-width: 600px) {
+    .featured_services{
+        margin-top:50px;
+    }
+    .featured_services_heading{
+        font-size:30px;
+    }
+    .featured_services_boxes_box3{
+        margin-top:90px;
+    }
+    
+}

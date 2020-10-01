@@ -1,0 +1,68 @@
+.subscribe_letter{
+    margin-top:200px;
+    margin-bottom:200px;
+}
+
+.subscribe_letter_heading{
+    font-family: 'Poppins', sans-serif;
+    font-size:50px;
+    font-weight:700;
+}
+
+.subscribe_letter_description{
+    font-family: 'Mulish', sans-serif;
+    font-weight:200;
+    font-size: 27px;
+    text-align:center;
+}
+
+.subscribe_letter_input{
+    width:395px;
+    height:75px;
+    border-radius:50px;
+    border:2px solid #EBEBEB;
+    color: #1E1C24;
+    font-size:20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:200;
+}
+
+.subscribe_letter_button{
+    width:230px;
+    height:77px;
+    background-color:#525FFB;
+    color:white;
+    border:none;
+    border-radius:50px;
+    font-size:23px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+}
+
+.subscribe_letter_button:focus{
+    outline:none;
+}
+
+@media only screen and (max-width: 600px) {
+    .subscribe_letter{
+        margin-top:-100px;
+    }
+    .subscribe_letter_heading{
+        text-align:center;
+        font-size:30px;
+    }
+    .subscribe_letter_description{
+        font-size:20px;
+    }
+    .subscribe_letter_input{
+        width:340px;
+        height:60px;
+    }
+    .subscribe_letter_button{
+        width:200px;
+        height:60px;
+        margin-left:65px;
+        margin-top:20px;
+    }
+   
+}

@@ -1,0 +1,36 @@
+.seamless_team{
+    margin-top:360px;
+}
+.seamless_team_heading{
+    font-family: 'Poppins', sans-serif;
+    font-size:50px;
+    font-weight:700;
+}
+
+.seamless_team_description{
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color:#B1AAAA;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .seamless_team{
+        margin-top:100px;
+    }
+    .seamless_team_heading{
+        font-size:30px;
+      
+    }
+    .seamless_team_container{
+        margin-left:0px !important;
+    }
+    .logos{
+        width:auto;
+        margin: 0 auto;
+    }
+    .seamless_team_image{
+        margin-top:90px;
+    }
+}

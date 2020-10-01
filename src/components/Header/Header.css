@@ -1,0 +1,27 @@
+.header{
+    height:170px;
+}
+
+.header_logo{
+    font-family: 'Poppins', sans-serif;
+    font-size:47px;
+    font-weight:800;
+    color:#525FFB;
+}
+
+.header_button{
+    font-family: 'Mulish', sans-serif;
+    color:#525FFB;
+    background-color:transparent;
+    border:2px solid #525FFB;
+    border-radius:50px;
+    height:58px;
+    width:148px;
+    outline:none;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.header_button:focus{
+    outline:none;
+}
